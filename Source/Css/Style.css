@@ -1,0 +1,56 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    padding: 0;
+    margin: 0;
+    height: 750px;
+    width: 100%;
+    background: linear-gradient(133deg,#a3b1ec 0%, #2928ac 80%);
+    background: -webkit-linear-gradient(133deg,#a3b1ec 0%, #2928ac 80%);
+  }
+  #boxLogin{
+    height: 500px;
+    width: 400px;
+    margin: 50px auto;
+    background: radial-gradient(circle farthest-corner at center center, #c9a3ec 0%, #3c0a72 80%);
+    background: -webkit-radial-gradient(circle farthest-corner at center center, #c9a3ec 0%, #3c0a72 80%);
+    border-radius: 20px;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  #boxLogin table{
+    margin: 100px auto;
+  }
+  .log{
+    margin: 0;
+    padding: 0;
+    width: 115px;
+    font-size: 20px;
+  }
+  #buttonLogin{
+    height: 50px;
+    width: 125px;
+    color: #d1d1d1;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background: radial-gradient(circle farthest-corner at center center, #574cf0  0%, #8006ac 80%);
+    background: -webkit-radial-gradient(circle farthest-corner at center center, #574cf0  0%, #8006ac 80%);
+    border-top: 5px groove #fafafa;
+    border-right: 5px ridge #fafafa;
+    border-bottom: 5px ridge #fafafa;
+    border-left: 5px groove #fafafa;
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+  }
+   #buttonLogin:active{
+      background: radial-gradient(circle farthest-corner at center center, #8006ac 0%, #574cf0  80%);
+      background: -webkit-radial-gradient(circle farthest-corner at center center, #8006ac 0%, #574cf0  80%);
+     border-top: 5px ridge#fafafa;
+    border-right: 5px groove #fafafa;
+    border-bottom: 5px groove #fafafa;
+    border-left: 5px ridge #fafafa;
+   }    
